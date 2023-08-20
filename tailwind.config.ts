@@ -16,7 +16,7 @@ const config: Config = {
         'purple-guy': 'url("/images/IMG_0269.png")'
       },
       colors: {
-        'purple': '#1c0b54',
+        'purple': 'rgba(28,11,84, 0.8)',
         'mid-purple': '#ab09cb',
         'gold': '#ebff06',
         'light-pink': '#FCF7FF',

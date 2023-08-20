@@ -2,15 +2,16 @@ import Image from 'next/image'
 
 function Header(){
   return(
-    <header className='min-h-screen min-w-full bg-purple flex justify-center items-center'>
-      
-      <div className='w-[260px] sm:w-[500px] xl:w-[700px] relative flex justify-end'>
-        <div className='w-[35%] max-w-[260px] aspect-square absolute top-1/4 left-5 sm:left-10 xl:left-16 -translate-y-2/4'>
-          <Image className='animate-spin-slow' alt='logo' src='/images/circle.svg' fill style={{objectFit: 'contain'}}/>
-        </div>
+    <header className='bg-purple-guy bg-no-repeat bg-cover'>
+      <div className='bg-purple min-h-screen min-w-full flex justify-center items-center'>
+        <div className='w-[260px] sm:w-[500px] xl:w-[700px] relative flex justify-end'>
+          <div className='w-[35%] max-w-[260px] aspect-square absolute top-1/4 left-5 sm:left-10 xl:left-16 -translate-y-2/4'>
+            <Image className='animate-spin-slow' alt='logo' src='/images/circle.svg' fill style={{objectFit: 'contain'}}/>
+          </div>
 
-        <div className='w-4/5 max-w-xl relative aspect-[3.3]'>
-          <Image className='animate-pulse-light' alt='logo' src='/images/logo.svg' fill style={{objectFit: 'contain'}}/>
+          <div className='w-4/5 max-w-xl relative aspect-[3.3]'>
+            <Image className='animate-pulse-light' alt='logo' src='/images/logo.svg' fill style={{objectFit: 'contain'}}/>
+          </div>
         </div>
       </div>
 
