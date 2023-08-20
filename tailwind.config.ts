@@ -12,7 +12,27 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'circle': 'url("/images/IMG_0790.png")',
+        'purple-guy': 'url("/images/IMG_0269.png")'
       },
+      colors: {
+        'purple': '#1c0b54',
+        'mid-purple': '#ab09cb',
+        'gold': '#ebff06',
+        'light-pink': '#FCF7FF',
+        'light-purple': '#9A89B4',
+        'light-cream': '#FFFADE'
+      },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+        'pulse-light': 'pulseLight 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+      },
+      keyframes: {
+        pulseLight: {
+          '0%, 100%': {opacity: '1'},
+          '50%': {opacity: '0.5'}
+        }
+      }
     },
   },
   plugins: [],
