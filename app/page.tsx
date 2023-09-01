@@ -21,16 +21,53 @@ function Header(){
         </div>
       </header>
       
-      <main className='bg-purple-guy bg-no-repeat bg-cover'>
-        <div id='about' className='bg-black-transparent min-h-screen min-w-full py-10 flex items-center justify-center'>
-          <div>
-            <h1  className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-mid-purple font-bold my-10 uppercase'>Unveiling the Saga</h1>
+      <main>
+        <div className='bg-purple-guy bg-no-repeat bg-cover'>
+          <div id='about' className='bg-black-transparent min-h-screen min-w-full py-10 flex items-center justify-center'>
+            <div>
+              <h1  className='text-2xl sm:text-6xl xl:text-5xl text-center w-full text-mid-purple font-bold my-10 uppercase head'>Unveiling the Saga</h1>
 
-            <p className='text-lg sm:text-xl lg:text-2xl text-white mt-20 w-[90%] max-w-5xl text-center m-auto'>Welcome to Polygon Gems, the ultimate nexus where ancient legacy and cutting-edge technology converge, breathing life into a new dimension of artistic expression and blockchain mastery. Our platform thrives at the crossroads of history, magic, and innovation, creating a haven for NFT collectors, enthusiasts, and seekers of untold power. Behold the mesmerizing collection that is Polygon Gems.</p>
+              <p className='text-lg sm:text-xl text-white mt-20 w-[90%] max-w-4xl text-center m-auto'>Welcome to Polygon Gems, the ultimate nexus where ancient legacy and cutting-edge technology converge, breathing life into a new dimension of artistic expression and blockchain mastery. Our platform thrives at the crossroads of history, magic, and innovation, creating a haven for NFT collectors, enthusiasts, and seekers of untold power. Behold the mesmerizing collection that is Polygon Gems.</p>
+            </div>
           </div>
         </div>
 
-        
+        <div id='roadmap' className='bg-gradient-purple-fade box-border overflow-auto py-10 min-h-screen'>
+          <h1  className='text-2xl sm:text-6xl xl:text-5xl text-center w-full text-mid-purple font-bold my-10 uppercase head'>Road Map</h1>
+
+          <div className='flex justify-around flex-wrap'>
+            <div className='text-white max-w-md w-full text-xl sm:w-[400px] min-w-[270px] m-auto bg-purple rounded-xl my-4 mx-4 py-5 px-8 border-4 border-blue-300'>
+              <h2 className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-blue-300 font-bold my-5 uppercase head'>Phase 1</h2>
+              <ul className='list-image-bluegem'>
+                <li>Launch website</li>
+                <li>Finish artworks</li>
+                <li>Smart contract development</li>
+                <li>Magiceden application</li>
+                <li>Partnership with marketplace</li>
+              </ul>
+            </div>
+
+            <div className='text-white max-w-md w-full text-xl sm:w-[400px] min-w-[270px] m-auto bg-purple rounded-xl my-4 mx-4 py-5 px-8 border-4 border-red-300'>
+              <h2 className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-red-300 font-bold my-5 uppercase head'>Phase 2</h2>
+              <ul className='list-image-redgem'>
+                <li>Minting begins</li>
+                <li>Airdrop $VTC</li>
+                <li>Airdrop gems to all minters</li>
+                <li>Polygon Gems NFTs airdrop for all legendary minters</li>
+              </ul>
+            </div>
+
+            <div className='text-white max-w-md w-full text-xl sm:w-[400px] min-w-[270px] m-auto bg-purple rounded-xl my-4 mx-4 py-5 px-8 border-4 border-yellow-300'>
+              <h2 className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-yellow-300 font-bold my-5 uppercase head'>Phase 3</h2>
+              <ul className='list-image-yellowgem'>
+                <li>Enovel</li>
+                <li>Game setup</li>
+                <li>And more...</li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
       </main>
 
       <footer className='pt-10 pb-5 px-5 flex flex-col sm:flex-row items-center justify-around border-t-2 border-mid-purple'>

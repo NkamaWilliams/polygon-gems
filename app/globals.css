@@ -31,4 +31,8 @@ body {
   /* .text-glow{
     text-shadow: 0 0 25px #ebff06;
   } */
+
+  .head{
+    text-shadow: 0 0 6px rgb(63, 0, 253);
+  }
 }
