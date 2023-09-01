@@ -39,30 +39,30 @@ function Header(){
             <div className='text-white max-w-md w-full text-xl sm:w-[400px] min-w-[270px] m-auto bg-purple rounded-xl my-4 mx-4 py-5 px-8 border-4 border-blue-300'>
               <h2 className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-blue-300 font-bold my-5 uppercase head'>Phase 1</h2>
               <ul className='list-image-bluegem'>
-                <li>Launch website</li>
-                <li>Finish artworks</li>
-                <li>Smart contract development</li>
-                <li>Magiceden application</li>
-                <li>Partnership with marketplace</li>
+                <li className='my-2 mx-3'>Launch website</li>
+                <li className='my-2 mx-3'>Finish artworks</li>
+                <li className='my-2 mx-3'>Smart contract development</li>
+                <li className='my-2 mx-3'>Magiceden application</li>
+                <li className='my-2 mx-3'>Partnership with marketplace</li>
               </ul>
             </div>
 
             <div className='text-white max-w-md w-full text-xl sm:w-[400px] min-w-[270px] m-auto bg-purple rounded-xl my-4 mx-4 py-5 px-8 border-4 border-red-300'>
               <h2 className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-red-300 font-bold my-5 uppercase head'>Phase 2</h2>
               <ul className='list-image-redgem'>
-                <li>Minting begins</li>
-                <li>Airdrop $VTC</li>
-                <li>Airdrop gems to all minters</li>
-                <li>Polygon Gems NFTs airdrop for all legendary minters</li>
+                <li className='my-2 mx-3'>Minting begins</li>
+                <li className='my-2 mx-3'>Airdrop $VTC</li>
+                <li className='my-2 mx-3'>Airdrop gems to all minters</li>
+                <li className='my-2 mx-3'>Polygon Gems NFTs airdrop for all legendary minters</li>
               </ul>
             </div>
 
             <div className='text-white max-w-md w-full text-xl sm:w-[400px] min-w-[270px] m-auto bg-purple rounded-xl my-4 mx-4 py-5 px-8 border-4 border-yellow-300'>
               <h2 className='text-2xl sm:text-4xl xl:text-5xl text-center w-full text-yellow-300 font-bold my-5 uppercase head'>Phase 3</h2>
               <ul className='list-image-yellowgem'>
-                <li>Enovel</li>
-                <li>Game setup</li>
-                <li>And more...</li>
+                <li className='my-2 mx-3'>Enovel</li>
+                <li className='my-2 mx-3'>Game setup</li>
+                <li className='my-2 mx-3'>And more...</li>
               </ul>
             </div>
           </div>
