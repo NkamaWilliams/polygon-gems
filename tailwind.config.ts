@@ -11,17 +11,25 @@ const config: Config = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-black-fade': 'linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7))',
         'circle': 'url("/images/IMG_0790.png")',
-        'purple-guy': 'url("/images/IMG_0269.png")'
+        'purple-guy': 'url("/images/IMG_0269.png")',
+        'space': 'url("/images/space.jpeg")',
+        'gems': 'url("/images/gems.jpeg")'
       },
       colors: {
         'purple': 'rgba(28,11,84, 0.8)',
         'mid-purple': '#ab09cb',
         'gold': '#ebff06',
+        'gold-2': '#ffd700',
         'light-pink': '#FCF7FF',
         'light-purple': '#9A89B4',
-        'light-cream': '#FFFADE'
+        'light-cream': '#FFFADE',
+        'black-900': 'rgba(0, 0, 0, 0.9)',
+        'black-transparent': 'rgba(0, 0, 0, 0.7)',
+        'green': '#1fd600',
+        'new': '#045DFF'
       },
       animation: {
         'spin-slow': 'spin 10s linear infinite',
