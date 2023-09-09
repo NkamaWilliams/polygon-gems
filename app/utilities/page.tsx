@@ -49,6 +49,7 @@ export default function Utilities(){
                     </article>
                 </div>
             </div>
+            <a href="/Group 994- DigiHub .pdf">PDF</a>
             <Footer/>
         </main>
     )
