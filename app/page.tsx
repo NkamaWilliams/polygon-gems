@@ -63,7 +63,7 @@ function Header(){
               <ul className='list-image-yellowgem text-sm md:text-lg'>
                 <li className='my-2 mx-3'>Enovel</li>
                 <li className='my-2 mx-3'>Game setup</li>
-                <li className='my-2 mx-3'>And more...sssssssssss</li>
+                <li className='my-2 mx-3'>And more...</li>
               </ul>
             </div>
           </div>
