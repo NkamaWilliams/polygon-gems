@@ -16,6 +16,7 @@ const config: Config = {
         'gradient-purple-fade': 'linear-gradient(to bottom, rgba(28,11,30), rgba(0, 0, 0, 0.7))',
         'circle': 'url("/images/IMG_0790.png")',
         'purple-guy': 'url("/images/IMG_0269.png")',
+        'gold-guy': 'url("/images/IMG_0030.png")',
         'space': 'url("/images/space.jpeg")',
         'gems': 'url("/images/gems.jpeg")'
       },
